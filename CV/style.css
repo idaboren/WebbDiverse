@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(212, 211, 211);
+}
+
+.container{
+    display:flex;
+    /* flex-direction: column; */
+}
+
+h1{
+   color: rgb(77, 76, 78);
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   font-size:2em;
+   text-shadow: 2px 2px #FFFFFF;
+   letter-spacing: 0.2em; 
+}
+
+h2{
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+img{
+    height: 200px;
+    margin:20px;
+    border-radius:50%;
+}
+
+.om-mig{
+   margin:20px;
+   flex: 2 1 200px;
+}
+
+.kontakt{
+    margin:20px;
+}
+
+#background-arc{
+    position:absolute;
+    z-index: -1;
+    border-radius: 50%;
+    min-height: auto;
+    height: 100%;
+    width: 100%;
+    left:-50%;
+    /* transform: translate(-50%); */
+    background-color: #FFFFFF;
+}
