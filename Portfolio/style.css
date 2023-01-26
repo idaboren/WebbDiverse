@@ -8,14 +8,21 @@ h1{
     color:rgb(33, 69, 84);
 }
 
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
 .portfolio{
-    display:flex;
-    justify-content: space-between;
+    /* display:flex;
+    justify-content: space-between; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
     gap:1em;
 }
 
 .portfolio > * {
     background-color: rgb(33, 69, 84);
+    border-radius: 5px;
     padding: 1em;
 }
 
@@ -25,5 +32,5 @@ a{
 }
 
 a:hover{
-color:rgb(210, 146, 72);
+color:rgb(207, 222, 232);
 }
