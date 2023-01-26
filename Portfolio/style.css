@@ -1,0 +1,29 @@
+body{
+    color:rgb(144, 163, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(144, 163, 177);
+}
+
+h1{
+    color:rgb(33, 69, 84);
+}
+
+.portfolio{
+    display:flex;
+    justify-content: space-between;
+    gap:1em;
+}
+
+.portfolio > * {
+    background-color: rgb(33, 69, 84);
+    padding: 1em;
+}
+
+a{
+    color: aliceblue;
+    text-decoration:none;
+}
+
+a:hover{
+color:rgb(210, 146, 72);
+}
